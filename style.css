@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* background-color: rgb(48, 47, 47); */
+    background-image: url("imggg.jpg");
+    background-size: cover;
+}
+
+#box {
+    height: 310px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pbox {
+    height: 50px;
+    width: calc(100% - 16px);
+    border: 2px solid black;
+    margin: 10px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.label {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.labell {
+    font-size: 1.2em;
+}
+
+.input-number {
+    width: 60px;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    margin: 12px;
+    transform: scale(2);
+}
+
+label {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.btn {
+    height: 40px;
+    width: 390px;
+    margin: 10px 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: rgb(202, 202, 202);
+}
